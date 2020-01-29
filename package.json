@@ -1,0 +1,27 @@
+{
+  "name": "posenet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jax",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "@tensorflow-models/posenet": "^2.2.1",
+    "@tensorflow/tfjs": "^1.5.1",
+    "@tensorflow/tfjs-converter": "^1.5.1",
+    "@tensorflow/tfjs-core": "^1.2.11",
+    "aws-sdk": "^2.610.0",
+    "canvas": "^2.6.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "image-size": "^0.8.3",
+    "multer": "^1.4.2",
+    "node-pre-gyp": "^0.14.0"
+  }
+}
